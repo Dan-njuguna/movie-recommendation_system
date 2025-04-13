@@ -1,0 +1,22 @@
+name: "movie-recommender-system"
+
+services:
+  api:
+    container_name: "movie-recommender-api"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    networks:
+      - movie-recommender-network
+    ports:
+      - "7999:8000"
+    volumes:
+      - app_volume:./app
+
+networks:
+  movie-recommender-network:
+    driver: bridge
+
+volumes:
+  app_volume:
