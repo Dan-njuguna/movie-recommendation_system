@@ -2,6 +2,9 @@
 
 """
 This module is responsible for feature engineering.
+
+AUTHOR: Dan Njuguna
+DATE: 13-04-2025
 """
 
 from typing import Optional
