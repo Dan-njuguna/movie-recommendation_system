@@ -2,6 +2,11 @@
 
 """
 This module is responsible for loading the data from various sources.
+In the Machine Learning pipeline, it is important to maintain the SOLID principle of System Design,
+this file is purely for structure and has no specific use in this project.
+
+AUTHOR: Dan Njuguna
+DATE: 13-04-2025
 """
 from abc import ABC, abstractmethod
 import pandas as pd
