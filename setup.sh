@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# AUTHOR: DAN NJUGUNA
+# DATE: 13-04-2025
+
 # Make required directories if they do not exist
 DIRS=("data" "logs" "models" "db")
 for dir in "${DIRS[@]}"; do
