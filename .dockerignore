@@ -1,0 +1,10 @@
+__pycache__/
+*.pyo
+*.pyc
+logs
+template.py
+*.md
+notebooks/
+*.ipynb
+.git
+.gitignore
