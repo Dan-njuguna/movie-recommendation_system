@@ -18,7 +18,7 @@ docker compose build
 
 3. Run the docker container(either in `detached mode` or otherwise - **one-off** mode)
 ```bash
-docker compose run -d # I prefer detached mode btw😄
+docker compose up -d # I prefer detached mode btw😄
 ```
 
 4. _OPTIONALLY_: You can check the logs for our running image, live logs as the app runs
